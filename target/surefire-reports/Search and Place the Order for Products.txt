@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Search and Place the Order for Products
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 18.914 s <<< FAILURE! - in Search and Place the Order for Products
+Search and Place the Order for Products.Search Experience for the product search in both home and offers page #1  Time elapsed: 10.484 s  <<< FAILURE!
+org.junit.ComparisonFailure: Tomato expected:<[Tomato]> but was:<[Mismatch between product names in Offers and Landing pages]>
+
+Search and Place the Order for Products.Search Experience for the product search in both home and offers page #2  Time elapsed: 8.429 s  <<< FAILURE!
+org.junit.ComparisonFailure: No data expected:<[Beetroot]> but was:<[Mismatch between product names in Offers and Landing pages]>
+

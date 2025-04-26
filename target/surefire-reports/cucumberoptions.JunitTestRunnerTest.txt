@@ -1,0 +1,90 @@
+-------------------------------------------------------------------------------
+Test set: cucumberoptions.JunitTestRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.88 s <<< FAILURE! - in cucumberoptions.JunitTestRunnerTest
+Place the Order for Products.Search Experience for the product search in both home and offers page  Time elapsed: 0.152 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User is On the GreenCart Landing Page' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is On the GreenCart Landing Page")
+public void user_is_on_the_green_cart_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User Searched with ShortName Tom and extract the Actual Name of the Product")
+public void user_searched_with_short_name_tom_and_extract_the_actual_name_of_the_product() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Added {int} items of the selected product to the cart")
+public void added_items_of_the_selected_product_to_the_cart(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User procceds to Checkout and validates the Tom items in checkout page")
+public void user_procceds_to_checkout_and_validates_the_tom_items_in_checkout_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verify user has ability to enter promo code and place the order")
+public void verify_user_has_ability_to_enter_promo_code_and_place_the_order() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Search and Place the Order for Products.Search Experience for the product search in both home and offers page #1  Time elapsed: 0.013 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User is On the GreenCart Landing Page' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is On the GreenCart Landing Page")
+public void user_is_on_the_green_cart_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User Searched with ShortName Tom and extract the Actual Name of the Product")
+public void user_searched_with_short_name_tom_and_extract_the_actual_name_of_the_product() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user searched for the Tom shortname in offers page")
+public void user_searched_for_the_tom_shortname_in_offers_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate product name in offers page matches with Landing Page")
+public void validate_product_name_in_offers_page_matches_with_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Search and Place the Order for Products.Search Experience for the product search in both home and offers page #2  Time elapsed: 0.009 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User is On the GreenCart Landing Page' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is On the GreenCart Landing Page")
+public void user_is_on_the_green_cart_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User Searched with ShortName Beet and extract the Actual Name of the Product")
+public void user_searched_with_short_name_beet_and_extract_the_actual_name_of_the_product() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user searched for the Beet shortname in offers page")
+public void user_searched_for_the_beet_shortname_in_offers_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate product name in offers page matches with Landing Page")
+public void validate_product_name_in_offers_page_matches_with_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
